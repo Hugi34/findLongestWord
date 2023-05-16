@@ -1,3 +1,8 @@
+/**
+ * This code takes the given string and checks for the longest word.
+ * @param {*} sentence The string given.
+ * @returns The longest Word.
+ */
 function findLongestWord(sentence){
 const words = sentence.split(" ")
 let longestWord = ""
